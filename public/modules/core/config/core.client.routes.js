@@ -23,6 +23,7 @@
           // url: '/',
           abstract: true,
           templateUrl: 'modules/core/views/core.client.view.html',
+          //resolve: helper.resolveFor('modernizr', 'icons', 'ngMaterial')
           resolve: helper.resolveFor('modernizr', 'icons')
         })
         .state('app.home', {

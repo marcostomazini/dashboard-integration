@@ -17,7 +17,9 @@ var ApplicationConfiguration = (function() {
 																						 'cfp.loadingBar',
 																						 'ngSanitize',
 																						 'ngResource',
-																						 'ui.utils'
+																						 'ui.utils',
+																						 'ngAria',
+																						 'ngMaterial'
 																						];
 	// Add a new vertical module
 	var registerModule = function(moduleName, dependencies) {

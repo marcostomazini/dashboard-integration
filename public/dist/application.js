@@ -917,9 +917,7 @@ angular.module('page').config(['$stateProvider',
           // ensure class is present for styling
           el.addClass('preloader');
 
-          appReady().then(function(){
-            $timeout(endCounter, 1000);
-          });
+          appReady().then(endCounter);
 
           timeout = $timeout(startCounter);
 
@@ -928,7 +926,7 @@ angular.module('page').config(['$stateProvider',
           function startCounter() {
 
             var remaining = 100 - counter;
-            counter = counter + (0.15 * Math.pow(1 - Math.sqrt(remaining), 2));
+            counter = counter + (0.015 * Math.pow(1 - Math.sqrt(remaining), 2));
 
             scope.loadCounter = parseInt(counter, 10);
 
@@ -951,12 +949,22 @@ angular.module('page').config(['$stateProvider',
 
           function appReady() {
             var deferred = $q.defer();
+            var viewsLoaded = 0;
             // if this doesn't sync with the real app ready
             // a custom event must be used instead
             var off = scope.$on('$viewContentLoaded', function () {
-              // with resolve this fires only once
-              deferred.resolve();
-              off();
+              viewsLoaded ++;
+              // we know there are at least two views to be loaded 
+              // before the app is ready (1-index.html 2-app*.html)
+              if ( viewsLoaded === 2) {
+                // with resolve this fires only once
+                $timeout(function(){
+                  deferred.resolve();
+                }, 3000);
+
+                off();
+              }
+
             });
 
             return deferred.promise;

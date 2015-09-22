@@ -1,6 +1,6 @@
 /*!
  * 
- * Angle - Bootstrap Admin App + MeanJS
+ * Angle - Bootstrap Admin App + AngularJS Material
  * 
  * Version: 3.0.0
  * Author: @themicon_co
@@ -9,6 +9,9 @@
  * 
  */
 
+// Bootstrap
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 // Bootstrap reset
 @import "bootstrap/bootstrap";
 @import "app/bootstrap-reset";
@@ -30,19 +33,23 @@
 @import "app/top-navbar";
 @import "app/sidebar";
 @import "app/offsidebar";
-@import "app/settings";
+
 
 // Components
 @import "app/preloader";
 @import "app/breadcrumbs";
 @import "app/loading-bar";
 @import "app/animate";
+@import "app/button-extra";
+@import "app/panels";
+@import "app/user-block";
+@import "app/circles";
+@import "app/dropdown-extra";
+@import "app/row-extra";
 
-// Table
-@import "app/table-grid";
-
-//Form
-@import "app/form-elements";
+// Plugins
+@import "app/datepicker";
+@import "app/gmap";
 
 // Utilities 
 @import "app/utils";
@@ -50,3 +57,11 @@
 // Print CSS
 @import "app/print";
 
+// Material
+@import "app/material/colors";
+@import "app/material/welcome";
+@import "app/material/cards";
+@import "app/material/md-forms";
+@import "app/material/md-list";
+@import "app/material/md-inputs";
+@import "app/material/ngmaterial";

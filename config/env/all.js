@@ -14,9 +14,10 @@ module.exports = {
 		lib: {
 			css: [
 				// 'public/lib/bootstrap/dist/css/bootstrap.css',
+				'public/lib/angular-material/angular-material.css'
 				// 'public/lib/bootstrap/dist/css/bootstrap-theme.css',
 			],
-			js: [
+			js: [				
 				'public/lib/jquery/dist/jquery.js',
 				'public/lib/angular/angular.js',
 				'public/lib/angular-route/angular-route.js',
@@ -25,7 +26,7 @@ module.exports = {
 				'public/lib/angular-touch/angular-touch.js',
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/ngstorage/ngStorage.js',
-				'public/lib/angular-ui-utils/ui-utils.js',
+				'public/lib/angular-ui-utils/ui-utils.js',				
 				'public/lib/angular-sanitize/angular-sanitize.js',
 				'public/lib/angular-resource/angular-resource.js',
 				'public/lib/angular-translate/angular-translate.js',
@@ -36,7 +37,9 @@ module.exports = {
 				'public/lib/oclazyload/dist/ocLazyLoad.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
 				'public/lib/angular-loading-bar/build/loading-bar.js',
-				'public/lib/jquery.browser/dist/jquery.browser.js'
+				'public/lib/jquery.browser/dist/jquery.browser.js',
+				'public/lib/angular-aria/angular-aria.js',
+				'public/lib/angular-material/angular-material.js'
 				// 'public/lib/jquery/dist/jquery.js',
 				// 'public/lib/angular/angular.js',
 				// 'public/lib/angular-resource/angular-resource.js',
