@@ -10,14 +10,14 @@
     function settingsRun($rootScope, $localStorage){
 
       // Global Settings
-      // ----------------------------------- 
+      // -----------------------------------
       $rootScope.app = {
         name: 'Angle',
         description: 'Angular Bootstrap Admin Template',
         year: ((new Date()).getFullYear()),
         layout: {
           isFixed: true,
-          isCollapsed: false,
+          isCollapsed: true,
           isBoxed: false,
           isRTL: false,
           horizontal: false,
