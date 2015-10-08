@@ -14,8 +14,8 @@
                 <md-card md-ink-ripple="md-ink-ripple" class="animated fadeInDown anim-delay-20">
                     <md-card-content>
                         <md-button class="lead text-bold" ng-href="{{definition.url}}">
+                            <i class="fa" ng-class="{ 'fa-check': definition.status == 'succeeded', 'fa-times': definition.status == 'failed' }"></i>
                             {{definition.name}}
-                            <p><i class="fa" ng-class="{ 'fa-check': definition.status == 'succeeded', 'fa-times': definition.status == 'failed' }"></i></p>
                         </md-button>
                     </md-card-content>
                 </md-card>
