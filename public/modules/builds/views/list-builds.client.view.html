@@ -1,0 +1,25 @@
+<h3>Builds
+	<ul class="breadcrumb">
+	  <li><a ui-sref="app.home">Home</a>
+	  </li>
+	  <li ng-repeat="state in $state.$current.path" ng-switch="$last" ng-if="!state.abstract" ng-class="{active: $last}"><a ng-switch-when="false" href="#{{state.url.format($stateParams)}}">{{state.title}}</a>
+	     <span ng-switch-when="true">{{state.title}}</span>
+	  </li>
+	</ul>
+</h3>
+<section data-ng-controller="BuildsController" data-ng-init="initialize()">
+    <div class="container container-md">
+        <div class="row">
+            <div class="col-md-4" ng-repeat="definition in buildDefinitions">
+                <md-card md-ink-ripple="md-ink-ripple" class="animated fadeInDown anim-delay-20">
+                    <md-card-content>
+                        <md-button class="lead text-bold" ng-href="{{definition.url}}">
+                            {{definition.name}}
+                            <md-icon md-font-icon="icon-done" ng-style="{'font-size': '24px', height: '24px'}" class="step "></md-icon>
+                        </md-button>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </div>
+    </div>
+</section>
