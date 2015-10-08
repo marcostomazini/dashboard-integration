@@ -15,7 +15,7 @@
                     <md-card-content>
                         <md-button class="lead text-bold" ng-href="{{definition.url}}">
                             {{definition.name}}
-                            <md-icon md-font-icon="icon-done" ng-style="{'font-size': '24px', height: '24px'}" class="step "></md-icon>
+                            <p><i class="fa" ng-class="{ 'fa-check': definition.status == 'succeeded', 'fa-times': definition.status == 'failed' }"></i></p>
                         </md-button>
                     </md-card-content>
                 </md-card>
