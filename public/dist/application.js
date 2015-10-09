@@ -17,7 +17,9 @@ var ApplicationConfiguration = (function() {
 																						 'cfp.loadingBar',
 																						 'ngSanitize',
 																						 'ngResource',
-																						 'ui.utils'
+																						 'ui.utils',
+																						 'ngAria',
+																						 'ngMaterial'
 																						];
 	// Add a new vertical module
 	var registerModule = function(moduleName, dependencies) {
@@ -390,6 +392,7 @@ angular.module('articles').factory('Articles', ['$resource',
           // url: '/',
           abstract: true,
           templateUrl: 'modules/core/views/core.client.view.html',
+          //resolve: helper.resolveFor('modernizr', 'icons', 'ngMaterial')
           resolve: helper.resolveFor('modernizr', 'icons')
         })
         .state('app.home', {
@@ -704,10 +707,14 @@ angular.module('app.core').service('Menus', [
           scripts: {
             'modernizr':          ['/lib/modernizr/modernizr.js'],
             'icons':              ['/lib/fontawesome/css/font-awesome.min.css',
-                                   '/lib/simple-line-icons/css/simple-line-icons.css']
+                                   '/lib/simple-line-icons/css/simple-line-icons.css'],
+           //'ngMaterial': ['/vendor/angular-material/angular-material.js']
           },
           // Angular based script (use the right module name)
           modules: [
+          
+           {name: 'ngMaterial', files: ['/vendor/angular-material/angular-material.js']}
+
             // {name: 'toaster', files: ['/lib/angularjs-toaster/toaster.js', '/lib/angularjs-toaster/toaster.css']}
           ]
         })
@@ -1070,14 +1077,14 @@ angular.module('page').config(['$stateProvider',
     function settingsRun($rootScope, $localStorage){
 
       // Global Settings
-      // ----------------------------------- 
+      // -----------------------------------
       $rootScope.app = {
-        name: 'Angle',
-        description: 'Angular Bootstrap Admin Template',
+        name: 'Treetech',
+        description: 'Portal de serviços',
         year: ((new Date()).getFullYear()),
         layout: {
           isFixed: true,
-          isCollapsed: false,
+          isCollapsed: true,
           isBoxed: false,
           isRTL: false,
           horizontal: false,

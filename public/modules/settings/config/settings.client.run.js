@@ -10,9 +10,9 @@
     function settingsRun($rootScope, $localStorage){
 
       // Global Settings
-      // ----------------------------------- 
+      // -----------------------------------
       $rootScope.app = {
-        name: 'Angle',
+        name: 'DB1',
         description: 'Angular Bootstrap Admin Template',
         year: ((new Date()).getFullYear()),
         layout: {
