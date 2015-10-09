@@ -1,0 +1,1024 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"membersSe",
+				"membersSearchCallback"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 182.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"reinsta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"buil",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"bui",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 368.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projects/dashboard-integration"
+	],
+	"file_history":
+	[
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.Dominio/Enum/PaisPadrao.cs",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.WebUI/Areas/Manutencao/Views/NotaEvento/EditTechnicalInformation.cshtml",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.WebUI/Areas/Manutencao/Controllers/NotaEventoController.cs",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.WebUI/Scripts/App/Manutencao/nota-evento.js",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.Dominio/DTO/OS/CreateOrdemServicoDTO.cs",
+		"/C/Projects/dashboard-integration/config/env/all.js",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.WebUI/Areas/Cadastro/Views/Caracteristica/CreateModal.cshtml",
+		"/C/Treetech - AAM/Release/V2.1/RTM/Treetech.SAM.Recursos/Treetech.SAM.Recursos.csproj",
+		"/C/Users/rodrigo.fernandes/Desktop/AAM/Erros/moment-with-langs.js",
+		"/C/Users/rodrigo.fernandes/Desktop/AAM/Erros/moment-with-langs.min.js",
+		"/C/Treetech - AAM/Dev/56401/Treetech.SAM.Negocio/V2/PlanoManutencao/ServiceOrderByMaintenancePlanBo.cs",
+		"/C/Treetech - AAM/Dev/56401/Treetech.ControleAcesso.WebUI/Treetech.ControleAcesso.WebUI.csproj",
+		"/C/Treetech - AAM/Dev/56401/Treetech.SAM.Api/Treetech.SAM.Api.csproj",
+		"/C/Treetech - AAM/Dev/56401/Treetech.Framework/Treetech.Framework.csproj",
+		"/C/Treetech - AAM/Release/V2.1/Service Pack/Treetech.SAM.WebUI/Treetech.SAM.WebUI.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Mappers/Treetech.SAM.Mappers.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Api/Treetech.SAM.Api.csproj",
+		"/C/Users/rodrigo.fernandes/Desktop/Alterações em OS.txt",
+		"/C/Users/rodrigo.fernandes/Downloads/Skype/ArquivoTipoRegistro.cs",
+		"/C/Treetech - AAM/Dev/56402/Treetech.SAM.Mappers.Tests/Treetech.SAM.Mappers.Tests.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.ControleAcesso.Recursos/Geral.Designer.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Servico/Web.config",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Servico/CadastroServico.svc.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.Implantacao.Infra/Treetech.Implantacao.Infra.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Recursos/Treetech.SAM.Recursos.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Recursos/Geral.resx",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.IoC/packages.config",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Recursos/Geral.resx",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Mappers/packages.config",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Recursos/Geral.Designer.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/PlanoManutencaoNegocio.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/EquipamentoEspecialPlanoManutencaoV2DTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/V2/PlanoManutencao/PlanoManutencaoBusiness.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/V2/PlanoManutencao/Interface/IPlanoManutencaoBusiness.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/V2/PlanoManutencao/PlanoManutencaoUpdate.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Operation/EstruturaBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/NotificacaoBo/NotificationBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/PlanoManutencaoV2DTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/ObjetoPlanoManutencaoDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.ORM/Mapping/EmpresaPrestadoraMap.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Operation/Risco.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI/Areas/Cadastro/Controllers/api/MarcaApiController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI.SeleniumTests/StartWebUI.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/EquipamentoEspecialPlanoManutencao.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Cadastre/Dto/StructureDto.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI/Code/ModelBinder/EquipamentoModelBinder.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Api/Areas/Cadastro/AutoCompletes/EquipamentoAutoCompleteController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI/Areas/Manutencao/Controllers/MaoObraPMController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/OS/EquipamentoSubstitutoOSDTO.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.Implantacao.Recursos/Geral.resx",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/DataTablesParams/SecaoResponsavelDataTablesParam.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Pais.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/LocalizacaoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/ListaAtividadeBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/IListaAtividadeBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.WebUI/Treetech.SAM.WebUI.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Api/Areas/Cadastro/ModeloEquipamentoController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI/Areas/Cadastro/Controllers/ModeloEquipamentoController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EquipamentoBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Dominio/Manutencao/DTO/PlanosManutencao/RiscoDetalhePmDto.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.WebUI/Areas/Cadastro/Controllers/ContadorController.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.ORM/ContextoData.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.IoC/UnityConfig.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.ORM/ContextoData.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/GrupoConsumoOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Negocio/Manutencao/OrdensServico/CentroCustoOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.IoC/UnityConfig.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Cadastre/Dto/LocationDto.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Mappers/Cadastro/LocalizacaoMapper.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Negocio/Cadastro/ClassificacaoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Mappers/Cadastro/ListaAtividadeMapper.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Mappers/Manutencao/PlanoManutencao/EstruturaPMMapper.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Mappers/Treetech.SAM.Mappers.csproj",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Estado.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EmpresaPrestadora/EmpresaPrestadoraBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Enum/EmpresaCategoria.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/AtivosOperacionais/AtivoOperacionalEquipamentoDto.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/DataTablesParams/AtivoOperacionalEquipamentoDataTablesParam.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/MarcaDto.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Operation/NaturezaIntervencao.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio.Tests/Cadastre/UnidadeMedidaBoTests.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/Operation/StructureDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/OS/OrdemServicoExtensions.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/OS/OrdemServicoDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/ModeloEquipamentoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/ModeloEquipamentoDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Geral.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.ControleAcesso.Recursos/Geral.resx",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Enum/TipoRecursoExistente.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EquipamentoValidator.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/EquipamentoDataTablesParam.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/Marca.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/AtividadeDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/OS/ListaAtividadeDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/ListaAtividadePlanoManutencaoDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/VeiculoPlanoManutencaoDTO.cs",
+		"/C/Treetech - AAM/Release/V1.1/Service Pack/Treetech.SAM.Negocio/EquipamentoNegocio.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/PM/ListaAtividadePMDTO.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/DTO/EquipmentOperationDataTablesParam.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Dominio/ModeloEquipamento.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/NotaEvento/NotaEventoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/HistoricoContadorBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/GrupoCaracteristicaBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/FamiliaBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EquipamentoLocalizacaoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Formulario/FormularioBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EmpresaPrestadora/Interface/IEmpresaPrestadoraBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/SimaBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/ICentroCustoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Formulario/FormularioEnsaioBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/IContadorBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/CreateOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/DocumentosAjuste/DocumentoAjusteBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/DailyWork/CreateDailyWorkBusiness.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/DailyWork/AppointmentHistoryBusiness.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/IFamiliaBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/IEquipamentoValidator.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/Interface/IEquipamentoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/UpdateOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/ServicoPrestadoraBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/OrdemServicoValidator.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/Job/OrdemServicoByPlanoManutencaoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/OrdemServicoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/OfflineFormTestServiceOrderBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Negocio/Maintenance/OrdemServico/GrupoConsumoOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Maintenance/OrdemServico/FinalizarOrdemServicoBo.cs",
+		"/C/Treetech - AAM/Main/Main/Treetech.SAM.Negocio/Cadastre/EmpresaPrestadora/GrupoEconomicoBo.cs",
+		"/C/Treetech - AAM/Dev/Dev-1/Treetech.SAM.Negocio/Cadastro/EmpresasPrestadoras/GrupoEconomicoBo.cs"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"geral.designer",
+			"dashboard",
+			"=",
+			",",
+			" { get; set; }",
+			"public",
+			"web.mvc",
+			"5",
+			"DotNetOpenAuth",
+			"StatusRequisicaoServicoNaoPermiteCancelamento",
+			"CancelamentoRequisicaoServicoSemMotivo",
+			"geral.designer.cs",
+			"3",
+			"automapper",
+			"\\r\\n",
+			"Fase-2_sp15_Adicionado_Ativo_Operacional_em_Nota_Event",
+			"agendamento",
+			"É necessário preencher com valor positivo no campo",
+			"viewbag",
+			"ArquivoListaAtividadeMapper",
+			"EstadoDivergentePais",
+			"ensaioordemservicodto",
+			"grupoconsumo",
+			"ValidaAjusta",
+			"AtualizarDescricaoEquipamentoRecursoExistente",
+			"packages",
+			"nuget.targets",
+			"192.168.198.26:5881",
+			"\"key\": \"",
+			"3",
+			"uniqueName",
+			"self",
+			"getUsers",
+			" ",
+			"  ",
+			"   ",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			",",
+			"-D",
+			" /d:",
+			"-D",
+			"modules",
+			"=",
+			"/d:",
+			"\n",
+			"tfvc",
+			"V1.",
+			"-D",
+			"í",
+			"Unable to TFS annotate the following file which is not in a mapped TFS workspace",
+			"annotate",
+			"search-module",
+			"Unable to TFS annotate the following file which is not in a mapped TFS workspace",
+			"assign",
+			"-D",
+			"ControleAcesso",
+			"Servico",
+			"gunTurnAmt",
+			"trackName",
+			"'",
+			"Bancodados",
+			"Teste",
+			"normalRelativeAngleDegrees",
+			");\n",
+			"fazQuadradoParaDireita",
+			">();\n",
+			"cotnador",
+			"_listaAtividadeContadorRepository",
+			"_listaAtividadeRepository",
+			"ListasAtividadeContador",
+			"Bancodados",
+			"DB1",
+			"intersect",
+			"contains",
+			"-DTreetech",
+			"Treetech",
+			"-DTreetech",
+			"Treetech",
+			"C:\\BancoDados\\backups",
+			"C:\\Database\\backup",
+			"\n\n",
+			")",
+			"INSERT [dbo].[__MigrationHistory]([MigrationId], [ContextKey], [Model], [ProductVersion])\nVALUES (",
+			"grupo-consumo",
+			"Veiculo_OS",
+			"Veiculo_OS_Atividade",
+			"Veiculo_OS",
+			"refreshAll",
+			"200.150.203.147:82",
+			"hompro.imp.treetech.com.br",
+			"200.150.203.147:82",
+			"Razor",
+			"optimization",
+			"causa",
+			"UpadatePM",
+			"AjustaMaoObraListaAtividade",
+			"callJob",
+			"drop",
+			"svrhomtreetech",
+			"InvalidCEP",
+			"gantt",
+			"InterventionDataUnavailabilityRequired",
+			"ExistemDependencia",
+			"dependencia",
+			"ExistemDependencia",
+			"replace",
+			"String.replace",
+			"$window",
+			"mvc",
+			"fix",
+			"required",
+			"\\\\",
+			" { get; set; }",
+			"public",
+			"ENUMS",
+			"enums",
+			"angular-class",
+			"automa",
+			"idproprieta",
+			"autocomplete",
+			"CamposMutuamenteExclusivos",
+			"AtualizarDescricaoEquipamentoRecursoExistente",
+			"Common.Infra",
+			"/",
+			".csproj"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"\n",
+			"db1.aam.treetech.com.br",
+			"db1.imp.treetech.com.br",
+			"db1.aam.treetech.com.br",
+			".nupkg",
+			"%system.teamcity.build.checkoutDir%/nuget/packages/",
+			"* ->",
+			"#",
+			"",
+			"\"",
+			"\\r\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portal.sublime-project",
+	"replace":
+	{
+		"height": 156.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"createordemservicodt",
+				"RTM\\Treetech.SAM.Dominio\\DTO\\OS\\CreateOrdemServicoDTO.cs"
+			],
+			[
+				"createmodal",
+				"RTM\\Treetech.SAM.WebUI\\Areas\\Cadastro\\Views\\Caracteristica\\CreateModal.cshtml"
+			],
+			[
+				"nota-event",
+				"RTM\\Treetech.SAM.WebUI\\Scripts\\App\\Manutencao\\nota-evento.js"
+			],
+			[
+				"notaeventocontro",
+				"RTM\\Treetech.SAM.WebUI\\Areas\\Manutencao\\Controllers\\NotaEventoController.cs"
+			],
+			[
+				"edittechnicalinformation.cshtml",
+				"RTM\\Treetech.SAM.WebUI\\Areas\\Manutencao\\Views\\NotaEvento\\EditTechnicalInformation.cshtml"
+			],
+			[
+				"recursos.csproj",
+				"Treetech.SAM.Recursos\\Treetech.SAM.Recursos.csproj"
+			],
+			[
+				"paispadrao",
+				"Treetech.SAM.Dominio\\Enum\\PaisPadrao.cs"
+			],
+			[
+				"serviceorderbymaintenance",
+				"Treetech.SAM.Negocio\\V2\\PlanoManutencao\\ServiceOrderByMaintenancePlanBo.cs"
+			],
+			[
+				"treetech.framework.csproj",
+				"Treetech.Framework\\Treetech.Framework.csproj"
+			],
+			[
+				"treetech.sam.api.cs",
+				"Treetech.SAM.Api\\Treetech.SAM.Api.csproj"
+			],
+			[
+				"treetech.controleacesso.webui.csproj",
+				"Treetech.ControleAcesso.WebUI\\Treetech.ControleAcesso.WebUI.csproj"
+			],
+			[
+				"treetech.sam.mapper.csproj",
+				"Treetech.SAM.Mappers\\Treetech.SAM.Mappers.csproj"
+			],
+			[
+				"treetech.sam.api.cspro",
+				"Treetech.SAM.Api\\Treetech.SAM.Api.csproj"
+			],
+			[
+				"treetech.sam.mappers.test.csproj",
+				"Treetech.SAM.Mappers.Tests\\Treetech.SAM.Mappers.Tests.csproj"
+			],
+			[
+				"geral.resx",
+				"Dev-1\\Treetech.SAM.Recursos\\Geral.resx"
+			],
+			[
+				"treetech.sam.recursos.csproj",
+				"Main\\Treetech.SAM.Recursos\\Treetech.SAM.Recursos.csproj"
+			],
+			[
+				"geral.designer.cs",
+				"Main\\Treetech.SAM.Recursos\\Geral.Designer.cs"
+			],
+			[
+				"treetech.implantacao.infra.csproj",
+				"Main\\Treetech.Implantacao.Infra\\Treetech.Implantacao.Infra.csproj"
+			],
+			[
+				"planomanutencaonegocio",
+				"Main\\Treetech.SAM.Negocio\\PlanoManutencaoNegocio.cs"
+			],
+			[
+				"cadastroservico.svc.cs",
+				"Main\\Treetech.SAM.Servico\\CadastroServico.svc.cs"
+			],
+			[
+				"planomanutencaobusines",
+				"Main\\Treetech.SAM.Negocio\\V2\\PlanoManutencao\\PlanoManutencaoBusiness.cs"
+			],
+			[
+				"equipamentoespeciallpm",
+				"Main\\Treetech.SAM.Dominio\\DTO\\PM\\EquipamentoEspecialPlanoManutencaoV2DTO.cs"
+			],
+			[
+				"equipamentoespecialplano",
+				"Main\\Treetech.SAM.Dominio\\EquipamentoEspecialPlanoManutencao.cs"
+			],
+			[
+				"startwebui",
+				"Main\\Treetech.SAM.WebUI.SeleniumTests\\StartWebUI.cs"
+			],
+			[
+				"marcaapicontro",
+				"Main\\Treetech.SAM.WebUI\\Areas\\Cadastro\\Controllers\\api\\MarcaApiController.cs"
+			],
+			[
+				"empresaprestadoramap",
+				"Main\\Treetech.SAM.ORM\\Mapping\\EmpresaPrestadoraMap.cs"
+			],
+			[
+				"objetoplanomanute",
+				"Main\\Treetech.SAM.Dominio\\DTO\\PM\\ObjetoPlanoManutencaoDTO.cs"
+			],
+			[
+				"planomanutencaov2dto",
+				"Main\\Treetech.SAM.Dominio\\DTO\\PM\\PlanoManutencaoV2DTO.cs"
+			],
+			[
+				"notificationbo",
+				"Main\\Treetech.SAM.Negocio\\NotificacaoBo\\NotificationBo.cs"
+			],
+			[
+				"estruturabo",
+				"Main\\Treetech.SAM.Negocio\\Operation\\EstruturaBo.cs"
+			],
+			[
+				"planomanutencaoupdate",
+				"Main\\Treetech.SAM.Negocio\\V2\\PlanoManutencao\\PlanoManutencaoUpdate.cs"
+			],
+			[
+				"iplanomanutencaobusiness",
+				"Main\\Treetech.SAM.Negocio\\V2\\PlanoManutencao\\Interface\\IPlanoManutencaoBusiness.cs"
+			],
+			[
+				"geral.res",
+				"Dev-1\\Treetech.Implantacao.Recursos\\Geral.resx"
+			],
+			[
+				"listaatividadebo",
+				"Main\\Treetech.SAM.Negocio\\Cadastre\\ListaAtividadeBo.cs"
+			],
+			[
+				"ilistaatividadebo",
+				"Main\\Treetech.SAM.Negocio\\Cadastre\\Interface\\IListaAtividadeBo.cs"
+			],
+			[
+				"localizacaobo",
+				"Main\\Treetech.SAM.Negocio\\Cadastre\\LocalizacaoBo.cs"
+			],
+			[
+				"geral.",
+				"Main\\Treetech.SAM.Recursos\\Geral.resx"
+			],
+			[
+				"pais",
+				"Main\\Treetech.SAM.Dominio\\Pais.cs"
+			],
+			[
+				"secaoresponsaveldata",
+				"Main\\Treetech.SAM.Dominio\\DTO\\DataTablesParams\\SecaoResponsavelDataTablesParam.cs"
+			],
+			[
+				"structuredto",
+				"Main\\Treetech.SAM.Dominio\\Cadastre\\Dto\\StructureDto.cs"
+			],
+			[
+				"equipamentosubstitutoosdto",
+				"Main\\Treetech.SAM.Dominio\\DTO\\OS\\EquipamentoSubstitutoOSDTO.cs"
+			],
+			[
+				"equipamentoautocompletecontroller",
+				"Main\\Treetech.SAM.Api\\Areas\\Cadastro\\AutoCompletes\\EquipamentoAutoCompleteController.cs"
+			],
+			[
+				"maoobrapmcontro",
+				"Main\\Treetech.SAM.WebUI\\Areas\\Manutencao\\Controllers\\MaoObraPMController.cs"
+			],
+			[
+				"equipamentomodelb",
+				"Main\\Treetech.SAM.WebUI\\Code\\ModelBinder\\EquipamentoModelBinder.cs"
+			],
+			[
+				"contadorcontroller",
+				"Main\\Treetech.SAM.WebUI\\Areas\\Cadastro\\Controllers\\ContadorController.cs"
+			],
+			[
+				"modeloequipamentocontroller",
+				"Main\\Treetech.SAM.WebUI\\Areas\\Cadastro\\Controllers\\ModeloEquipamentoController.cs"
+			],
+			[
+				"modeloequipamnetocontroller",
+				"Main\\Treetech.SAM.Api\\Areas\\Cadastro\\ModeloEquipamentoController.cs"
+			],
+			[
+				"riscodetalhepmd",
+				"Dev-1\\Treetech.SAM.Dominio\\Manutencao\\DTO\\PlanosManutencao\\RiscoDetalhePmDto.cs"
+			],
+			[
+				"treetech.sam.webui.cspro",
+				"Dev-1\\Treetech.SAM.WebUI\\Treetech.SAM.WebUI.csproj"
+			],
+			[
+				"unityconfig",
+				"Main\\Treetech.SAM.IoC\\UnityConfig.cs"
+			],
+			[
+				"grupoconsumoordemservicobo",
+				"Main\\Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\GrupoConsumoOrdemServicoBo.cs"
+			],
+			[
+				"centrocustoordemservicobo",
+				"Dev-1\\Treetech.SAM.Negocio\\Manutencao\\OrdensServico\\CentroCustoOrdemServicoBo.cs"
+			],
+			[
+				"contextodata.cs",
+				"Dev-1\\Treetech.SAM.ORM\\ContextoData.cs"
+			],
+			[
+				"classificacaobo",
+				"Dev-1\\Treetech.SAM.Negocio\\Cadastro\\ClassificacaoBo.cs"
+			],
+			[
+				"localizacaomapper",
+				"Main\\Treetech.SAM.Mappers\\Cadastro\\LocalizacaoMapper.cs"
+			],
+			[
+				"locationdto",
+				"Main\\Treetech.SAM.Dominio\\Cadastre\\Dto\\LocationDto.cs"
+			],
+			[
+				"listaatividademapper",
+				"Main\\Treetech.SAM.Mappers\\Cadastro\\ListaAtividadeMapper.cs"
+			],
+			[
+				"estruturapmmapper",
+				"Main\\Treetech.SAM.Mappers\\Manutencao\\PlanoManutencao\\EstruturaPMMapper.cs"
+			],
+			[
+				"treetech.sam.mappers",
+				"Dev-1\\Treetech.SAM.Mappers\\Treetech.SAM.Mappers.csproj"
+			],
+			[
+				"estado",
+				"Treetech.SAM.Dominio\\Estado.cs"
+			],
+			[
+				"modeloequipamentodto",
+				"Treetech.SAM.Dominio\\DTO\\ModeloEquipamentoDTO.cs"
+			],
+			[
+				"modeloequipamentobo",
+				"Treetech.SAM.Negocio\\Cadastre\\ModeloEquipamentoBo.cs"
+			],
+			[
+				"equipamentobo",
+				"Treetech.SAM.Negocio\\Cadastre\\EquipamentoBo.cs"
+			],
+			[
+				"geral",
+				"Treetech.SAM.Recursos\\Geral.resx"
+			],
+			[
+				"geral.cs",
+				"Treetech.SAM.Dominio\\Geral.cs"
+			],
+			[
+				"empresaprestadorabo",
+				"Treetech.SAM.Negocio\\Cadastre\\EmpresaPrestadora\\EmpresaPrestadoraBo.cs"
+			],
+			[
+				"empresacatego",
+				"Treetech.SAM.Dominio\\Enum\\EmpresaCategoria.cs"
+			],
+			[
+				"ativooperacionalequipamentodto",
+				"Treetech.SAM.Dominio\\DTO\\AtivosOperacionais\\AtivoOperacionalEquipamentoDto.cs"
+			],
+			[
+				"ativooperacionalequipamentodatata",
+				"Treetech.SAM.Dominio\\DTO\\DataTablesParams\\AtivoOperacionalEquipamentoDataTablesParam.cs"
+			],
+			[
+				"marcadto",
+				"Treetech.SAM.Dominio\\DTO\\MarcaDto.cs"
+			],
+			[
+				"naturezainter",
+				"Treetech.SAM.Dominio\\Operation\\NaturezaIntervencao.cs"
+			],
+			[
+				"unidademedidabotes",
+				"Treetech.SAM.Negocio.Tests\\Cadastre\\UnidadeMedidaBoTests.cs"
+			],
+			[
+				"recursoexis",
+				"Treetech.SAM.Dominio\\Enum\\TipoRecursoExistente.cs"
+			],
+			[
+				"ordemservicoete",
+				"Treetech.SAM.Dominio\\DTO\\OS\\OrdemServicoExtensions.cs"
+			],
+			[
+				"ordemservicodto",
+				"Treetech.SAM.Dominio\\DTO\\OS\\OrdemServicoDTO.cs"
+			],
+			[
+				"marca",
+				"Treetech.SAM.Dominio\\Marca.cs"
+			],
+			[
+				"atividadedto",
+				"Treetech.SAM.Dominio\\DTO\\AtividadeDTO.cs"
+			],
+			[
+				"listaatividadedto",
+				"Treetech.SAM.Dominio\\DTO\\OS\\ListaAtividadeDTO.cs"
+			],
+			[
+				"veiculoplanomanutencaodto",
+				"Treetech.SAM.Dominio\\DTO\\PM\\VeiculoPlanoManutencaoDTO.cs"
+			],
+			[
+				"listaatividadeplanomanutencaodto",
+				"Treetech.SAM.Dominio\\DTO\\PM\\ListaAtividadePlanoManutencaoDTO.cs"
+			],
+			[
+				"listaatividadepmdto",
+				"Treetech.SAM.Dominio\\DTO\\PM\\ListaAtividadePMDTO.cs"
+			],
+			[
+				"equipmentoperationdatatablesparam",
+				"Treetech.SAM.Dominio\\DTO\\EquipmentOperationDataTablesParam.cs"
+			],
+			[
+				"modelo",
+				"Treetech.SAM.Dominio\\ModeloEquipamento.cs"
+			],
+			[
+				"equipamentodatatab",
+				"Treetech.SAM.Dominio\\DTO\\EquipamentoDataTablesParam.cs"
+			],
+			[
+				"equipame",
+				"Treetech.SAM.Negocio\\Cadastre\\EquipamentoBo.cs"
+			],
+			[
+				"notaeventobo",
+				"Treetech.SAM.Negocio\\Maintenance\\NotaEvento\\NotaEventoBo.cs"
+			],
+			[
+				"equipamentovalidator",
+				"Treetech.SAM.Negocio\\Cadastre\\EquipamentoValidator.cs"
+			],
+			[
+				"equipamentolocalizacaobo",
+				"Treetech.SAM.Negocio\\Cadastre\\EquipamentoLocalizacaoBo.cs"
+			],
+			[
+				"familiabo",
+				"Treetech.SAM.Negocio\\Cadastre\\FamiliaBo.cs"
+			],
+			[
+				"grupocaracteristicabo",
+				"Treetech.SAM.Negocio\\Cadastre\\GrupoCaracteristicaBo.cs"
+			],
+			[
+				"historicocontadorbo",
+				"Treetech.SAM.Negocio\\Cadastre\\HistoricoContadorBo.cs"
+			],
+			[
+				"empresaprestadoraob",
+				"Treetech.SAM.Negocio\\Cadastre\\EmpresaPrestadora\\EmpresaPrestadoraBo.cs"
+			],
+			[
+				"iempresaprestadorabo",
+				"Treetech.SAM.Negocio\\Cadastre\\EmpresaPrestadora\\Interface\\IEmpresaPrestadoraBo.cs"
+			],
+			[
+				"formulariobo",
+				"Treetech.SAM.Negocio\\Cadastre\\Formulario\\FormularioBo.cs"
+			],
+			[
+				"formularioensaiobo",
+				"Treetech.SAM.Negocio\\Cadastre\\Formulario\\FormularioEnsaioBo.cs"
+			],
+			[
+				"icentrocusto",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\ICentroCustoBo.cs"
+			],
+			[
+				"icontadorbo",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\IContadorBo.cs"
+			],
+			[
+				"iequipamentobo",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\IEquipamentoBo.cs"
+			],
+			[
+				"iequipamentovali",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\IEquipamentoValidator.cs"
+			],
+			[
+				"ifamiliabo",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\IFamiliaBo.cs"
+			],
+			[
+				"appointmenthistorybus",
+				"Treetech.SAM.Negocio\\DailyWork\\AppointmentHistoryBusiness.cs"
+			],
+			[
+				"createdailyworkbusiness",
+				"Treetech.SAM.Negocio\\DailyWork\\CreateDailyWorkBusiness.cs"
+			],
+			[
+				"documentoajustebo",
+				"Treetech.SAM.Negocio\\Maintenance\\DocumentosAjuste\\DocumentoAjusteBo.cs"
+			],
+			[
+				"createordemservicobo",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\CreateOrdemServicoBo.cs"
+			],
+			[
+				"finalizarordem",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\FinalizarOrdemServicoBo.cs"
+			],
+			[
+				"offlineformtestservic",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\OfflineFormTestServiceOrderBo.cs"
+			],
+			[
+				"ordemservicobo",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\OrdemServicoBo.cs"
+			],
+			[
+				"ordemservicobyplan",
+				"Treetech.SAM.Negocio\\Maintenance\\Job\\OrdemServicoByPlanoManutencaoBo.cs"
+			],
+			[
+				"ordemservicovalidator",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\OrdemServicoValidator.cs"
+			],
+			[
+				"servicoprestadorabo",
+				"Treetech.SAM.Negocio\\Cadastre\\ServicoPrestadoraBo.cs"
+			],
+			[
+				"updateordemservicobo",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\UpdateOrdemServicoBo.cs"
+			],
+			[
+				"simabo",
+				"Treetech.SAM.Negocio\\Maintenance\\OrdemServico\\SimaBo.cs"
+			],
+			[
+				"empresasagenciasdatatablesparam",
+				"Treetech.SAM.Dominio\\DTO\\EmpresasAgenciasDataTablesParam.cs"
+			],
+			[
+				"empresasagenciasdto",
+				"Treetech.SAM.Dominio\\DTO\\EmpresasAgenciasDto.cs"
+			],
+			[
+				"imarcabo",
+				"Treetech.SAM.Negocio\\Cadastre\\Interface\\IMarcaBo.cs"
+			],
+			[
+				"marcabo",
+				"Treetech.SAM.Negocio\\Cadastre\\MarcaBo.cs"
+			],
+			[
+				"igrupoecono",
+				"Treetech.SAM.Negocio\\Cadastre\\EmpresaPrestadora\\Interface\\IGrupoEconomicoBo.cs"
+			],
+			[
+				"grupoeconomicobo",
+				"Treetech.SAM.Negocio\\Cadastre\\EmpresaPrestadora\\GrupoEconomicoBo.cs"
+			],
+			[
+				"ativooperacionalequipamentobo",
+				"Treetech.SAM.Negocio\\Cadastre\\AtivosOperacionais\\AtivoOperacionalEquipamentoBo.cs"
+			],
+			[
+				"ativooperacionalbo",
+				"Treetech.SAM.Negocio\\Cadastre\\AtivosOperacionais\\AtivoOperacionalBo.cs"
+			],
+			[
+				"onsbo",
+				"Treetech.SAM.Negocio\\Cadastre\\OnsBo.cs"
+			],
+			[
+				"ocorrenciabo",
+				"Treetech.SAM.Negocio\\Cadastre\\OcorrenciaBo.cs"
+			],
+			[
+				"sistemabo",
+				"Treetech.SAM.Negocio\\Cadastre\\SistemaBo.cs"
+			],
+			[
+				"secaobo",
+				"Treetech.SAM.Negocio\\Operation\\SecaoBo.cs"
+			],
+			[
+				"isecaobo",
+				"Treetech.SAM.Negocio\\Operation\\Interface\\ISecaoBo.cs"
+			],
+			[
+				"planoamanutencaobusiness",
+				"Treetech.SAM.Negocio\\V2\\PlanoManutencao\\PlanoManutencaoBusiness.cs"
+			],
+			[
+				"planomanutencaobo",
+				"Treetech.SAM.Negocio\\V2\\PlanoManutencao\\Jobs\\JobsPlanoManutencaoBo.cs"
+			],
+			[
+				"planomanutencaocreate",
+				"Treetech.SAM.Negocio\\V2\\PlanoManutencao\\PlanoManutencaoCreate.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
