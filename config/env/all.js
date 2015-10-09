@@ -2,8 +2,8 @@
 
 module.exports = {
 	app: {
-		title: 'Treetech',
-		description: 'Portal de serviços',
+		title: 'Portal de Serviços',
+		description: 'Bootstrap Admin Theme + Meanjs',
 		keywords: 'MongoDB, Express, AngularJS, Node.js'
 	},
 	port: process.env.PORT || 3000,
@@ -39,7 +39,9 @@ module.exports = {
 				'public/lib/angular-loading-bar/build/loading-bar.js',
 				'public/lib/jquery.browser/dist/jquery.browser.js',
 				'public/lib/angular-aria/angular-aria.js',
-				'public/lib/angular-material/angular-material.js'
+				'public/lib/angular-material/angular-material.js',
+				'public/lib/angular-base64/angular-base64.js',
+				'public/lib/underscore/underscore.js'
 				// 'public/lib/jquery/dist/jquery.js',
 				// 'public/lib/angular/angular.js',
 				// 'public/lib/angular-resource/angular-resource.js',

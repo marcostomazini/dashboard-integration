@@ -17,7 +17,7 @@
         year: ((new Date()).getFullYear()),
         layout: {
           isFixed: true,
-          isCollapsed: false,
+          isCollapsed: true,
           isBoxed: false,
           isRTL: false,
           horizontal: false,
